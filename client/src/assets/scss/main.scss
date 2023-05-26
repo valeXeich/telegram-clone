@@ -1,0 +1,27 @@
+@import 'reset.scss';
+@import 'variables.scss';
+@import 'font.scss';
+@import 'settings.scss';
+
+
+.text-white {
+    color: $white;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.full-rounded {
+    border-radius: 5px;
+}
+
+.half-rounded {
+    border-radius: 5px 5px 0 0;
+}
+
+.relative {
+    position: relative;
+}
